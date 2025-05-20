@@ -31,7 +31,7 @@ const AddFood = () => {
     event.preventDefault();
       if(!image)
       {
-        toast.error("please select an image");
+        toast.error("please select an image github");
        
         return;
       }
