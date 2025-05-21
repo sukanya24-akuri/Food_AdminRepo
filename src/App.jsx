@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Sidebar from './components/Sidebar/sidebar';
+import Sidebar from './components/Sidebar/Sidebar';
 import Menubar from './components/Menubar/Menubar';
 import { Route, Routes } from 'react-router-dom';
 import AddFood from './pages/AddFood/AddFood';
