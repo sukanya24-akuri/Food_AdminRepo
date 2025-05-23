@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Upload from '../../assets/upload.jfif';
-import axios from 'axios';
 import { addFood } from '../../Service/foodservice';
 import { toast } from 'react-toastify';
 
