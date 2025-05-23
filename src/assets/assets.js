@@ -1,7 +1,9 @@
-import logo from './logo.jfif';
+import logo from "./logo.jfif";
+import parcel from "./parcel.jfif";
+import upload from "./upload.jfif";
 
-export const asset={
-    logo,
-    parcel,
-    upload
+export const asset = {
+  logo,
+  parcel,
+  upload,
 };

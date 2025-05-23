@@ -1,7 +1,8 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { assets } from '../../../../foodies/src/assets/assets';
+import { asset } from '../../assets/assets';
+
 
 const Orders = () => {
    
@@ -33,7 +34,7 @@ const Orders = () => {
                                 return(
                                     <tr key={index}>
                                       <td>
-                                        <img src={assets.Parcel}  alt="" height={48} width={48}/>
+                                        <img src={asset.parcel}  alt="" height={48} width={48}/>
                                       </td>
                                       <td>
                                       <div>
